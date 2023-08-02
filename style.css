@@ -1,0 +1,193 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Saira Condensed', sans-serif;
+
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-blue {
+  color: #477ee4;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: white;
+  color: #fff;
+  padding: 10px;
+  height: 64px;
+  width: 100%;
+}
+.navbar-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  height: 32px;
+  margin-left: 24px;
+  color: black;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-link {
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.body-banner {
+  display: flex;
+  background-color: rgb(196, 196, 196);
+  padding: 32px 72px 32px 24px;
+  gap: 24px;
+
+  .body-left {
+    display: flex;
+    width: 60%;
+  }
+
+  .body-right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    width: 40%;
+
+    .title-right {
+      font-weight: bold;
+      font-size: 48px;
+    }
+    .start-btn {
+      text-align: center;
+      padding: 8px;
+      background-color: rgb(128, 128, 128);
+      color: white;
+    }
+  }
+}
+.body-information-main {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 32px 72px 32px 24px;
+  gap: 24px;
+  .body-left {
+    width: 60%;
+  }
+  .body-right {
+    width: 40%;
+  }
+}
+.intro-body-left {
+  font-size: 35px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  font-weight: bold;
+}
+
+.footer-body-left {
+  padding-bottom: 32px;
+}
+
+.info-item {
+  display: flex;
+  .info-item-left {
+    width: 35%;
+    padding-right: 10px;
+    padding: 16px 16px;
+  }
+  .info-item-left {
+    width: 35%;
+    padding-right: 10px;
+    padding: 16px 16px;
+  }
+
+  .info-item-right {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+  }
+}
+.start-learner {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: rgb(196, 196, 196);
+}
+.text-h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-row{
+  display: flex;
+  gap: 32px;
+padding: 32px 72px;
+
+}
+.card {
+  flex: 1;
+  width: 320px;
+  background-color: white;
+ 
+}
+.card-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card-content {
+  padding-left: 16px;
+}
+.card-title {
+  font-size: 20px;
+  padding-top: 16px;
+}
+.card-description {
+  gap: 8px;
+}
+
+footer{
+    border-top: 1px solid gainsboro;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between; margin-bottom: px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.terms{
+    display: flex;
+    
+}
+.terms p a{
+    color:#424949 ;
+    text-decoration: none;
+    margin:1rem;
+    
+}
+
+@media screen and (min-width: 426px){
+    .mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .desktop{
+        display: none;
+    }
+}
