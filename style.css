@@ -179,15 +179,30 @@ footer{
     margin:1rem;
     
 }
-
-@media screen and (min-width: 426px){
-    .mobile{
+/* -----------------Moile----------------- */
+@media only screen and (max-width: 660px) {
+    
+  /* --------------------------------NAV-------------------------------- */
+  /* ----------NAV DESKTOP---------- */    
+      .navbar-menu{
+          display: none;
+      }
+      .navbar-logo{
         display: none;
+      }
+  
+  /* ----------NAV MOBILE---------- */
+      .nav-mobile{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 64px;
+          width: 100%;
+      }
+      .body-banner{
+        display: flex;
+        flex-direction: column;
+      }
+  
     }
-}
-
-@media screen and (max-width: 425px){
-    .desktop{
-        display: none;
-    }
-}
+    
