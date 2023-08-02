@@ -194,15 +194,33 @@ footer{
   /* ----------NAV MOBILE---------- */
       .nav-mobile{
           display: flex;
-          justify-content: space-around;
+          justify-content: space-between;
           align-items: center;
           height: 64px;
           width: 100%;
+          gap: 10px;
       }
       .body-banner{
         display: flex;
         flex-direction: column;
+        width: 100%;
       }
-  
+     
+      .body-information-main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+      }
+.start-learner{
+  display: flex;
+        flex-direction: column;
+        width: 100%;
+}
+  .card-row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
     }
     
