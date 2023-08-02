@@ -1,9 +1,8 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: 'Bebas Neue', sans-serif;
-  font-family: 'Saira Condensed', sans-serif;
-
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Saira Condensed", sans-serif;
 }
 
 .font-bold {
@@ -99,7 +98,9 @@ html {
 .footer-body-left {
   padding-bottom: 32px;
 }
-
+.info-item:hover{
+background-color: #424949;
+}
 .info-item {
   display: flex;
   .info-item-left {
@@ -133,17 +134,15 @@ html {
   font-weight: bold;
   text-align: center;
 }
-.card-row{
+.card-row {
   display: flex;
   gap: 32px;
-padding: 32px 72px;
-
+  padding: 32px 72px;
 }
 .card {
   flex: 1;
   width: 320px;
   background-color: white;
- 
 }
 .card-image {
   width: 100%;
@@ -161,66 +160,62 @@ padding: 32px 72px;
   gap: 8px;
 }
 
-footer{
-    border-top: 1px solid gainsboro;
-    padding: 16px 24px;
-    display: flex;
-    justify-content: space-between; margin-bottom: px;
-    font-size: 0.9rem;
-    font-weight: 400;
+footer {
+  border-top: 1px solid gainsboro;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: px;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
-.terms{
-    display: flex;
-    
+.terms {
+  display: flex;
 }
-.terms p a{
-    color:#424949 ;
-    text-decoration: none;
-    margin:1rem;
-    
+.terms p a {
+  color: #424949;
+  text-decoration: none;
+  margin: 1rem;
 }
 /* -----------------Moile----------------- */
 @media only screen and (max-width: 660px) {
-    
   /* --------------------------------NAV-------------------------------- */
-  /* ----------NAV DESKTOP---------- */    
-      .navbar-menu{
-          display: none;
-      }
-      .navbar-logo{
-        display: none;
-      }
-  
-  /* ----------NAV MOBILE---------- */
-      .nav-mobile{
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          height: 64px;
-          width: 100%;
-          gap: 10px;
-      }
-      .body-banner{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-      }
-     
-      .body-information-main{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+  /* ----------NAV DESKTOP---------- */
+  .navbar-menu {
+    display: none;
+  }
+  .navbar-logo {
+    display: none;
+  }
 
-      }
-.start-learner{
-  display: flex;
-        flex-direction: column;
-        width: 100%;
-}
-  .card-row{
+  /* ----------NAV MOBILE---------- */
+  .nav-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+    gap: 10px;
+  }
+  .body-banner {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-    }
-    
+
+  .body-information-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .start-learner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .card-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
